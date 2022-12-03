@@ -1,0 +1,36 @@
+body {
+   background-color: aliceblue;
+   width: 1300px;
+   margin: auto;
+   padding: auto;
+   border: 15px solid grey;
+}
+h1{
+    font-family: 'Caudex', serif;
+    font-weight: bold;
+	text-align: center;
+	font-size: 60px;
+	border: 1px;
+    margin: 0;
+}
+h2{
+    margin-top: -10px;
+	margin-bottom: 7px;
+	text-align: center;
+	font-style: italic;
+	margin-top: 8px;
+
+}
+img{
+	height: 380px;
+	width: 280px;
+}
+h4{
+	font-size: large;
+	font-style: oblique;
+}
+blockquote{
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+}

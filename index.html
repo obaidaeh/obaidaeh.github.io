@@ -1,179 +1,63 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title> Md Obaid's Portfolio </title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Fontawesome CDN Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="hedy.css" rel="stylesheet" type="text/css">
+    <title>A Tribute Page</title>
+    
+
+</head>
 <body>
-  <!-- Move to up button -->
-  <div class="scroll-button">
-    <a href="#home"><i class="fas fa-arrow-up"></i></a>
-  </div>
-  <!-- navgaition menu -->
-  <nav>
-    <div class="navbar">
-      <div class="logo"><a href="#">Portfolio</a></div>
-      <ul class="menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <div class="cancel-btn">
-            <i class="fas fa-times"></i>
-          </div>
-      </ul>
-      <div class="media-icons">
-        <a href="https://www.linkedin.com/in/md-obaid-ansari-7772ba202//"><i class="fab fa-linkedin"></i></a>
-      </div>
-    </div>
-    <div class="menu-btn">
-      <i class="fas fa-bars"></i>
-    </div>
-  </nav>
+        <div class="container-fluid">
+            <div class="jumbotron">
+                <div class="row">
+                    <div class="col-xs-12">
+                    <h1 class="text-centre">Hedy Lamarr</h1>
+                    <h2 class="text-centre">Actress and Inventor</h2>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="thumbnail" id="picture">
+                            <img src="photoofhedylamarr.jpg" alt="Photo of Hedy Lamarr"
+                            align="right">
+                            
+                        </div>
+                    </div>
 
-<!-- Home Section Start -->
- <section class="home" id="home">
-   <div class="home-content">
-     <div class="text">
-       <div class="text-one">Hello,</div>
-       <div class="text-two">I'm Md Obaid</div>
-       <div class="text-three">I am a third year Btech student.</div>
-       <div class="text-four">From Chennai</div>
-     </div>
-     <div class="button">
-      <button onclick="window.location.href='https://www.linkedin.com/in/md-obaid-ansari-7772ba202/';">Hire Me</button>
-     </div>
-   </div>
- </section>
+                    <div class="col-md-8">
+                        <p class="text-left">We can say without a semblance of doubt that she was a woman who had an interesting life. She was courious, intelligent and talented. She travelled and changed residence many times from a young age. She was the first to do many things on the big screen when films were still made in black and white: she was a star. But she also had a great and resourceful mind, that made her learn from everything available around her; she did experiments and made inventions. One of which is very present in our daily life nowadays.
+                        <br>
+                        <b>
+                        <h4>Some facts about her:</h4>
+                        </b>
+                        <ul>
+                            <li>She was a Film Star from 1930's to 1950's</li>
+						    <li>Hedy was often known as: “The Most Beautiful Woman in Films” </li>
+						    <li>During WWII along with George Antheil (pianist, author and inventor) developed a radio guidance technological system.Same system that is currently incorporated into Wi-Fi, CDMA, and Bluetooth</li>
+						    <li>The U.S. Navy did not adopt the technology at the time</li>
+						    <li>It was not used until 1962, by that time their patent was no longer valid</li>
+						    <li>Became an American citizen in 1953</li>
+						    <li>She was married and divorced 6 times</li>
+						    <li>Died in USA in 2000</li>
+                        </ul>
+                        <br>
+                        <blockquote>"As an inventor Lamarr was decade ahead of her time" ~ Karl Shmavonian</blockquote>
+                        
+                            
+                        <br>
+                        </p>
+                    </div>
 
-<!-- About Section Start -->
-<section class="about" id="about">
-  <div class="content">
-    <div class="title"><span>About Me</span></div>
-  <div class="about-details">
-    <div class="left">
-      <img src="images/about.jpg" alt="">
-    </div>
-    <div class="right">
-      <div class="topic">Coding Is My Passion</div>
-      <p>A third year B Tech student seeking to find the opportunity to work in a 
-        fun and challenging work environment that will encourage me to improve 
-        learn new and necessary skills</p>
-      <div class="button">
-        <button onclick="window.location.href='https://drive.google.com/drive/folders/1JJp3o0MYD9yKIuLhCfxogwx5XOPuWjQG?usp=share_link';">Download CV</button>
-      </div>
-    </div>
-  </div>
-  </div>
-</section>
-
-<!-- My Skill Section Start -->
-<!-- Section Tag and Other Div will same where we need to put same CSS -->
-<section class="skills" id="skills">
- <div class="content">
-   <div class="title"><span>My Skills</span></div>
-   <div class="skills-details">
-     <div class="text">
-       <div class="topic">Skills Reflects Our Knowledge</div>
-       <p>I have been coding for past 3 years, its been fun and exciting to learn new languages and code. My favourite part of coding is solving the problems in competitons and learn new methods to solve those questions in lesser time complexity.</p>
-       <div class="experience">
-         <div class="num">10</div>
-         <div class="exp">NEW<br>Projects</div>
-       </div>
-     </div>
-     <div class="boxes">
-       <div class="box">
-         <div class="topic">Python</div>
-         <div class="per">75%</div>
-       </div>
-       <div class="box">
-         <div class="topic">Cpp/C</div>
-         <div class="per">89%</div>
-       </div>
-       <div class="box">
-         <div class="topic">HTML</div>
-         <div class="per">80%</div>
-       </div>
-       <div class="box">
-         <div class="topic">CSS</div>
-         <div class="per">70%</div>
-       </div>
-       <div class="box">
-        <div class="topic">Javascript</div>
-        <div class="per">70%</div>
-      </div>
-       <div class="box">
-        <div class="topic">SQL</div>
-        <div class="per">65%</div>
-      </div>
-     </div>
-   </div>
- </div>
-</section>
-
-<!-- My Certificates Section Start -->
- <section class="certificates" id="certificates">
-   <div class="content">
-     <div class="title"><span>My Certificates</span></div>
-     <div class="boxes">
-       <div class="box">
-         <div class="icon">
-           <i class="fas fa-paint-brush"></i>
-       </div>
-       <div class="topic">Website Design Internship</div>
-       <p>Completing 5 weeks of internship in Website Design with the title of “Designing an e-commerce portal” at Internship Studio from 21st July to 25th August 2022</p>
-     </div>
-       <div class="box">
-         <div class="icon">
-           <i class="fas fa-desktop"></i>
-       </div>
-       <div class="topic">Skillexa Workshop</div>
-       <p>Completing the offline workshop SKILLEXA on building Alexa Skills</p>
-     </div>
-       <div class="box">
-         <div class="icon">
-           <i class="fab fa-android"></i>
-       </div>
-       <div class="topic">Android Developers Apps</div>
-       <p>Created 5 simple apps using kotlin in Google Supported Virtual Internship Program</p>
-     </div>
-       <div class="box">
-         <div class="icon">
-           <i class="fas fa-chart-line"></i>
-       </div>
-       <div class="topic">Many more...</div>
-       <p>I recieved many more certificates</p>
-     </div>
-   </div>
-   </div>
- </section>
-
-<!-- Contact Me section Start -->
-<section class="contact" id="contact">
-  <div class="content">
-    <div class="title"><span>Contact Me</span></div>
-    <div class="text">
-      <div class="topic">Have Any Project?</div>
-      <p></p>
-      <div class="button">
-        <button onclick="window.location.href='https://www.linkedin.com/in/md-obaid-ansari-7772ba202/';">Let's Chat</button>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Footer Section Start -->
-<footer>
-  <div class="text">
-    <span>Created By Md Obaid </span>
-  </div>
-</footer>
-
-  <script src="script.js"></script>
+                    
+               
+        
+        
+        
+        </div>
+    
 </body>
 </html>
